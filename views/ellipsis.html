@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ellipsis {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            /* 控制行数 可修改为3行、4行 */
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+
+        .box {
+            width: 200px;
+            line-height: 24px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ellipsis box">
+        这是两行文字这是两行文字这是两行文字这是两行文字这是两行文字这是两行文字这是两行文字
+    </div>
+</body>
+
+</html>
