@@ -7,5 +7,5 @@
 
 - [文本超过两行用省略号代替](./views/ellipsis.html)
 - [三角形](./views/triangle.html)
-- [取消文本选中](./views/triangle.html)
+- [取消文本选中](./views/noSelect.html)
 
